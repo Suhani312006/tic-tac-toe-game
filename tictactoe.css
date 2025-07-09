@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #5f758e;
+    text-align: center;
+}
+
+h1{
+    height: 100px;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #db162f;
+    background-color: #dbdb7b;
+    border: 2px solid black;
+
+}
+
+#reset-btn{
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    background-color: #3B1F2B;
+    color: antiquewhite;
+    border-radius: 1rem;
+    border: none;
+
+}
+
+
+#new-btn{
+     height: 50px;
+    width: 250px;
+    font-size: 20px;
+    background-color: #104d1f;
+    color: antiquewhite;
+}
+
+#msg{
+    color: #dbdfac;
+    font-size: 50px;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
+
+
+.srt {
+    height: 250px;
+    width: 500px;
+    margin: 100px auto; 
+    padding: 40px;
+    background-color: #D6F8D6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+}
+
+.srt{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Start {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(37, 107, 169);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 1px solid black;
+}
+
+#Start:hover {
+    font-size: 30px;
+    background-color: rgb(26, 83, 138);
+    transform: scale(1.05);
+}
+
+#ttt{
+    color: #104d1f;
+}
